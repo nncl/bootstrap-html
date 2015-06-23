@@ -10,12 +10,32 @@
 	}
 
 	.normal-box {
-	    width: $all-box-center;
-	    margin: 0 auto;	
+	    width: $all;
+	    margin: 0 auto;
+
+	    @media only screen and (max-width: $all) {
+	    	width: 90%;
+	    }	
 	}
 
 	.normal-second {
 		float: left;
 		width: 100%;
+	}
+
+	.back {
+		background-repeat: no-repeat;
+		background-image: $sprite;
+	}
+
+	.reset-sel {
+        -webkit-appearance: none;
+        -webkit-border-radius: 0;
+        -moz-appearance: none;
+        text-indent: .01px;
+        text-overflow: '';   		
+        background-image: $arrow;
+        background-position: 95% center;
+        background-repeat: no-repeat;
 	}
 // END Extends
