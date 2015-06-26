@@ -1,5 +1,5 @@
 <?php
-	$path = '/wordpress/wp-content/themes/theme-est-convidado';
+	$path = '/wordpress/wp-content/themes/theme-name';
 	$josefin = 'http://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,700';
 
 	// Header - menu

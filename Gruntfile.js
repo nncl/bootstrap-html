@@ -49,8 +49,10 @@ module.exports = function(grunt) {
                 options: {
                     match: [
                     	'assets/js/app.min.js',
+                    	'assets/js/home.min.js',
                     	
-                    	'assets/css/app.min.css'
+                    	'assets/css/app.min.css',
+                    	'assets/css/home.min.css'
                     ]
                 },
                 files: {
