@@ -27,6 +27,14 @@
 		<meta property="og:type" content="website">
 		-->
 
+        <!-- Twitter Cards -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@youruser">
+        <meta name="twitter:creator" content="Some title here">
+        <meta name="twitter:title" content="Some title here - It could be the same">
+        <meta name="twitter:description" content="An amazing description here.">
+        <!-- <meta name="twitter:image:src" content="{{shareImage}}"> -->
+
 		<link rel="stylesheet" type='text/css' href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.min.css" />
 		<link rel="stylesheet" type='text/css' href="<?php echo $path ?>/style.css">
 		<link rel="stylesheet" type='text/css' href="<?php echo $path ?>/assets/css/home.min.css">
