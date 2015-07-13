@@ -39,3 +39,5 @@
 			<script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
 		<![endif]-->
 	</head>
+
+	<body id="home" itemscope itemtype="http://schema.org/WebPage">
